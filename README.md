@@ -17,7 +17,7 @@ Ceasar Cipher:
 - Allows you to choose the Caesar shift values by which the text is shifted
 
 Alberti Cipher:
-- Doesn't match with actual the actual alberti cipher for a few reasons
-- The original alberti cipher was in Latin, and was missing around 6 letters
+- Doesn't match with actual the actual alberti cipher partially because the original alberti cipher was in Latin, and the cipher was missing around 6 letters as the creator deemed them unneccecary
+- I could not find a way to rotate the period of the program due to m
 - This version tries to keep the same spirit of the cipher by using two randomized alphabets
 - Although this won't match with the real alberti cipher, this program is at least internally consistent, so decrypting an encrypted message will return your input
