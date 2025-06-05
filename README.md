@@ -9,7 +9,7 @@ At the bottom, you're given the option to copy this to your clipboard
 If this program doesn't work maybe because some characters the code couldn't recognize were used, just reload the website
 
 Substitution Cipher:
-- Uses ASCII (American Standard Code for Information Interchange) codes instead of position in alphabet
+- Uses ASCII (American Standard Code for Information Interchange) codes instead of position in alphabet (instead of a being 1, it is 97)
 - This gives more depth into the substitutions, allowing you to differentiate uppercase and lowercase letters
 - There are commas between each character, so the code can tell the difference between numbers like 97 and 9 and 7
 
