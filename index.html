@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cipher Encoder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container"> <!--ID for CSS-->
+    <h2>Cipher Encryption</h2>
+    
+    <label for="cipher">Choose a Cipher:</label>
+    <select id="cipher" onchange="toggleShiftInput()">
+        <option value="shift">Subtitution Cipher</option>
+      <option value="caesar">Caesar Cipher</option>
+      <option value="alberti">Alberti Cipher</option>
+    </select>
+
+    <div id="shiftContainer">
+      <label for="shift">Caesar Shift:</label>
+      <input type="number" id="shift" value="3" min="1" max="25">
+    </div>
+
+    <label for="inputText">Input Text:</label>
+    <textarea id="inputText" rows="4"></textarea>
+
+    <label for="outputText">Output Text:</label>
+    <textarea id="outputText" rows="4" readonly></textarea>
+
+    <div class="row">
+      <button onclick="transformText(true)">Encrypt</button>
+      <button onclick="transformText(false)">Decrypt</button>
+    </div>
+    <button onclick="copyToClipboard()">Copy to Clipboard</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
