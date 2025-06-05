@@ -2,8 +2,6 @@
 
 This is my very simple website I made to simulate basic/ancient encryption methods
 
-If you want to access the file, click the green code button, then click download ZIP, and once its downloaded, try to open the index.html file with chrome or some web browser
-
 To use the program, you just have to choose your cipher, between substitution, caesar and alberti, 
 then input text and press a button to either encrypt or decrypt it. 
 At the bottom, you're given the option to copy this to your clipboard
